@@ -1,0 +1,652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WebWizardry</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <link rel="icon" href="icon_path" type="assets/logo/logo.png" />
+    
+  </head>
+  <body>
+    
+    <!-- <div class="cursor"></div> -->
+    <header class="glass" id="top">
+      <div class="container">
+        <div class="topbar">
+          <div class="logo">
+            <a href="index.html">
+              <img src="assets/logo/logo.jpg" alt="logo" />
+              <h1>WebWizardry</h1>
+            </a>
+          </div>
+          <div class="searchbar">
+            <input type="text" placeholder="Search Cars" />
+            <button class="search-btn">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+          <div class="login">
+            <a href="#">Login</a>
+          </div>
+        </div>
+        <div class="bottombar">
+          <nav>
+            <ul>
+              <li class="active"><a href="index.html">Home</a></li>
+              <li><a href="#vehic">Vehicles</a></li>
+              <li><a href="#">Services</a></li>
+              <li><a href="#rev">Reviews</a></li>
+              <li><a href="#secondary-footer">Contact Us</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <div class="container">
+        <div class="heroimg">
+          <img src="assets/images/Car1.png" alt="hero" />
+          <img src="assets/images/Car2.png" alt="hero" />
+          <img src="assets/images/Car3.png" alt="hero" />
+          <img src="assets/images/Car4.png" alt="hero" />
+          <img src="assets/images/Car5.png" alt="hero" />
+        </div>
+      </div>
+    </section>
+    <section class="leftright">
+      <div class="transition"></div>
+      <div class="container">
+        <h1 class="reveal-type">Where <span> DREAMS</span> hit the Road!</h1>
+      </div>
+    </section>
+    <section class="showcase" id="vehic">
+      <div class="top">
+        <h4 class="reveal-type">Click to View Specs <<<</h4>
+        <div id="image-track" data-mouse-down-at="0" data-prev-percentage="0">
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car1.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-0">
+              <h2>AeroLuxe</h2>
+              <p>Top Speed -250 Kmph<br>
+                Acceleration (0-100 kmph) - 5.9seconds
+                <br>
+                Engine:
+                1997 cc, 4 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                Turbocharged
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                296 bhp @ 5500 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                400 Nm @ 1500 rpm
+                <br>
+                Mileage (ARAI):
+                12.3kmpl</p>
+              <p>Rs. 1.16 - 1.76 Crore (On-Road Price, Chandigarh)</p>
+              <button>Buy Now</button>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car2.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-1">
+              <h2>VeloNova</h2>
+              <p>Top Speed - 293 Kmph<br>
+                Acceleration (0-100 kmph) - 4.5 seconds
+                <br>
+                Engine:
+                3995 cc, 6 Cylinders Flat, 6 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                MDG Flat-6
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                394 bhp @ 7000 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                420 Nm @ 5000 rpm
+                <br>
+                Mileage (ARAI):
+                10.4kmpl</p>
+              <p>Rs. 1.16 - 1.76 Crore (On-Road Price, Chandigarh)</p>
+              <button>Buy Now</button>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car3.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-2">
+              <h2>EcoPulse</h2>
+              <p>Top Speed - 299 Kmph<br>
+                Acceleration (0-100 kmph) - 3.2 seconds
+                <br>
+                Engine:
+                4395 cc, 8 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                S63 Twin-Turbocharged V8
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                603 bhp @ 5750 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                850 Nm @ 2500 rpm
+                <br>
+                Mileage (ARAI):
+                10.4kmpl</p>
+              <p>Rs. 2.83 Crore (On-Road Price, Chandigarh)</p>
+              <button>Buy Now</button>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car4.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-3">
+              <h2>ZephyrX</h2>
+              <p>Top Speed - 250 Kmph<br>
+                Acceleration (0-100 kmph) - 4.5 seconds
+                <br>
+                Engine:
+                2998 cc, 6 Cylinders Inline, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                B58 Turbocharged I6
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                335 bhp @ 5000 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                500 Nm @ 1600 rpm
+                <br>
+                Mileage (ARAI):
+                12.09 kmpl</p>
+              <p>Rs. 1.03 Crore (On-Road Price, Chandigarh)</p>
+              <button>Buy Now</button>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car5.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-4">
+              <h2>RapidFusion</h2>
+              <p>Top Speed - 325 Kmph<br>
+                Acceleration (0-100 kmph) - 2.9 seconds
+                <br>
+                Engine:
+                5204 cc, 10 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                V10 90° IDS, 40 valves
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                631 bhp @ 8250 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                600 Nm @ 6500 rpm
+                <br>
+                Mileage (ARAI):
+                7.3 kmpl</p>
+              <p>Rs. 4.29 Crore (On-Road Price, Chandigarh)</p>
+              <button>Buy Now</button>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car6.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-5">
+              <h2>LunarCruiser</h2>
+              <p>Top Speed - 359 Kmph<br>
+                Acceleration (0-100 kmph) - 2.9 seconds
+                <br>
+                Engine:
+                2992 cc, 6 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                Petrol
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                645 bhp @ 7000 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                740 Nm @ 6250 rpm
+                <br>
+                Electric Motor Assist:
+                809 bhp 741 Nm</p>
+              <p>Rs. 6.21 Crore (On-Road Price, Chandigarh)</p>
+              <button>Buy Now</button>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car7.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-6">
+              <h2>PrestigeGlide</h2>
+              <p>Top Speed - 325 Kmph<br>
+                Acceleration (0-100 kmph) - 2.9 seconds
+                <br>
+                Engine:
+                3000 cc, 6 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                3.0L 'Nettuno' Twin-Turbocharged 90° V6
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                621 bhp @ 7500 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                730 Nm @ 3000 rpm
+                <br>
+                Mileage (ARAI):
+                8.6 kmpl</p>
+              <p>Rs. 3.65 Crore (On-Road Price, Chandigarh)</p>
+              <button>Buy Now</button>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car8.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-7">
+              <h2>SuperNova</h2>
+              <p>Top Speed - 325 Kmph<br>
+                Acceleration (0-100 kmph) - 2.9 seconds
+                <br>
+                Engine:
+                3996 cc, 8 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                4.0L Twin-Turbocharged V8
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                641 bhp @ 6000 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                850 Nm @ 2250 rpm
+                <br>
+                Mileage (ARAI):
+                8.6 kmpl</p>
+              <p>Rs. 3.65 Crore (On-Road Price, Chandigarh)</p>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car9.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-8">
+              <h2>NebulaQuest</h2>
+              <p>Top Speed - 341 Kmph<br>
+                Acceleration (0-100 kmph) - 2.9 seconds
+                <br>
+                Engine:
+                3994 cc, 8 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                M840T
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                711 bhp @ 7500 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                770 Nm @ 5500 rpm
+                <br>
+                Mileage (ARAI):
+                8.2 kmpl</p>
+              <p>Rs. 5.35 Crore (On-Road Price, Chandigarh)</p>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car10.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-9">
+              <h2>TurboFlare</h2>
+              <p>Top Speed - 250 Kmph<br>
+                Acceleration (0-100 kmph) - 2.9 seconds
+                <br>
+                Engine:
+                6749 cc, 12 Cylinders In V Shape, 4 Valves/Cylinder, DOHC
+                <br>
+                Engine Type:
+                6.8L V12 engine
+                <br>
+                Fuel Type:
+                Petrol
+                <br>
+                Max Power (bhp@rpm):
+                963 bhp @ 5000 rpm
+                <br>
+                Max Torque (Nm@rpm):
+                850 Nm @ 1600 rpm
+                <br>
+                Mileage (ARAI):
+                6.6 kmpl</p>
+              <p>Rs. 7.99 Crore (On-Road Price, Chandigarh)</p>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+          <a>
+            <img
+              class="image"
+              src="/assets/images/Car11.png"
+              draggable="false"
+            />
+            <div class="specs" id="specs-10">
+              <h2>ZenithVolt</h2>
+              <p>Top Speed - 250 Kmph<br>
+                Acceleration (0-100 kmph) - 3.3 seconds
+                <br>
+                Engine:
+                Not Applicable Cylinders Not Applicable, Not Applicable Valves/Cylinder, Not Applicable
+                <br>
+                Engine Type:
+                2 Electric Motors
+                <br>
+                Fuel Type:
+                Electric
+                <br>
+                Max Motor Performance:
+                637 bhp 830 Nm
+                <br>
+                Driving Range:
+                401 Km</p>
+              <p>Rs. 2.04 Crore (On-Road Price, Chandigarh)</p>
+              <button class="close" onclick="holder.classList.remove('anim')">X</button>
+            </div>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <div class="revs">
+      <div class="rev-section">
+        <h2 class="title">Customer Feedback</h2>
+        <p class="note">We value your feedback</p>
+        
+        <div class="reviews">
+          <div class="review">
+            <div class="body-review">
+                <div class="name-review">Peter</div>
+                <div class="place-review">Ludhiana</div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                </div>
+                <div class="desc-review">Wow ! what an amazing experience at WebWizardry dealership !!</div>
+            </div>
+          </div>
+          <div class="review" id="rev">
+            <div class="body-review">
+                <div class="name-review">Sam</div>
+                <div class="place-review">Chandigarh</div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <div class="desc-review">Here you will find the vehicle which suits you well. I found my favourite car for a fair price , kudos to WebWizardry !!</div>
+            </div>
+          </div>
+          <div class="review">
+            <div class="body-review">
+                <div class="name-review">Ram Pratap</div>
+                <div class="place-review">New Delhi</div>
+                <div class="rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half"></i>
+                </div>
+                <div class="desc-review">I came to visit Chandigarh and just loved the service, Bought 2 cars at once.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="secondary-footer">
+      <div class="container">
+        <div>
+          <h3>Location</h3>
+          <p>CHANDIGARH UNIVERSITY, NH-05, <br> Ludhiana - Chandigarh State Hwy, Punjab 140413</p>
+        </div>
+        <div>
+          <img style="width: 150px" src="assets/logo/logo.jpg" alt="logo" />
+          <h3 style="color: #fff; font-size: 3.5rem; font-weight: 600; margin-bottom: 1rem; text-align: center;">
+            WebWizardry Dealership
+          </h3>
+          <p>Where Dreams Hit the ROAD!</p>
+        </div>
+        
+        <div>
+          <h3>Contact</h3>
+          <p>Phone: (+91)704087772</p>
+          <p>Email : <a href="#top">www.WebWizardry.in</p>
+          <div class="socials">
+            <a href="https://www.facebook.com/"><i class="fab fa-facebook fa-2x"></i></a>
+            <a href="https://www.instagram.com/"><i class="fab fa-instagram fa-2x"></i></a>
+            <a href="https://www.twitter.com/"><i class="fab fa-twitter fa-2x"></i></a>
+            <a href="https://www.linkedin.com/"><i class="fab fa-linkedin fa-2x"></i></a>
+          </div>
+        </div>
+      </div>  
+    </footer>
+
+  <footer id="main-footer">
+    <div class="container">
+      <p>WebWizardry &copy;2023</p>
+    </div>  
+  </footer>
+
+    <script src="js/script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="https://unpkg.com/split-type"></script>
+    <script src="https://cdn.jsdelivr.net/gh/studio-freight/lenis@1.0.19/bundled/lenis.min.js"></script>
+
+    <script>
+      // var cursor = document.querySelector(".cursor");
+
+      // document.addEventListener("mousemove", function (e) {
+      //   cursor.style.cssText = "left: " + e.clientX + "px; top: " + e.clientY + "px;";
+      // });
+    
+      // document.addEventListener("click", function () {
+      //   cursor.classList.add("expand");
+
+      //   setTimeout(function () {
+      //     cursor.classList.remove("expand");
+      //   }, 500);
+      // });
+
+      const holder = document.getElementById("image-track");
+      const specs = document.querySelectorAll(".specs");
+      const images = document.querySelectorAll(".image");
+      const close = document.querySelectorAll(".close");
+      images.forEach((image, index) => {
+        image.addEventListener("click", () => {
+          holder.classList.add("anim");
+          specs[index].classList.add("anim");
+          
+        });
+      });
+      close.forEach((close, index) => {
+        close.addEventListener("click", () => {
+          holder.classList.remove("anim");
+          specs[index].classList.remove("anim");
+        });
+      });
+    </script>
+
+    <script>
+      gsap.registerPlugin(ScrollTrigger);
+      window.ontouchstart = (e) => handleOnDown(e.touches[0]);
+
+      window.onmouseup = (e) => handleOnUp(e);
+
+      const splitTypes = document.querySelectorAll(".reveal-type");
+
+      splitTypes.forEach((char, i) => {
+        const text = new SplitType(char, { types: "chars" });
+
+        gsap.fromTo(
+          text.chars,
+          {
+            scaleY: 0,
+            y: -20,
+            transformOrigin: "top",
+          },
+          {
+            scaleY: 1,
+            y: 0,
+            duration: 0.3,
+            stagger: 0.02,
+            scrollTrigger: {
+              trigger: char,
+              start: "top 80%",
+              end: "top 20%",
+              scrub: false,
+              markers: false,
+              toggleActions: "play play play reverse",
+            },
+            // opacity: 0,
+          }
+        );
+      });
+
+      const lenis = new Lenis();
+
+      lenis.on("scroll", (e) => {
+        console.log(e);
+      });
+      window.onmousedown = (e) => handleOnDown(e);
+      function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+      }
+
+      requestAnimationFrame(raf);
+
+      const track = document.getElementById("image-track");
+
+      const handleOnDown = (e) => (track.dataset.mouseDownAt = e.clientX);
+
+      const handleOnUp = () => {
+        track.dataset.mouseDownAt = "0";
+        track.dataset.prevPercentage = track.dataset.percentage;
+      };
+
+      window.onmousemove = (e) => handleOnMove(e);
+
+      window.ontouchmove = (e) => handleOnMove(e.touches[0]);
+      const handleOnMove = (e) => {
+        if (track.dataset.mouseDownAt === "0") return;
+
+        const mouseDelta = parseFloat(track.dataset.mouseDownAt) - e.clientX,
+          maxDelta = window.innerWidth / 2;
+
+        const percentage = (mouseDelta / maxDelta) * -100,
+          nextPercentageUnconstrained =
+            parseFloat(track.dataset.prevPercentage) + percentage,
+          nextPercentage = Math.max(
+            Math.min(nextPercentageUnconstrained, 0),
+            -100
+          );
+
+        track.dataset.percentage = nextPercentage;
+
+        track.animate(
+          {
+            transform: `translate(${nextPercentage}%, -50%)`,
+          },
+          { duration: 1200, fill: "forwards" }
+        );
+
+        for (const image of track.getElementsByClassName("image")) {
+          image.animate(
+            {
+              objectPosition: `${100 + nextPercentage}% center`,
+            },
+            { duration: 1200, fill: "forwards" }
+          );
+        }
+      };
+      window.ontouchend = (e) => handleOnUp(e.touches[0]);
+
+
+    </script>
+  </body>
+</html>
